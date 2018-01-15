@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66BB6A"
+    tools:context="com.example.fareedalimahar.emotionapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/process"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="Process"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:id="@+id/takePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="Take Picture"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/process"
+        android:layout_marginBottom="12dp"
+        android:layout_alignEnd="@+id/process" />
+</RelativeLayout>
